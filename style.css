@@ -380,6 +380,20 @@ article .icon {
   border-color: rgb(163, 163, 163);
 }
 
+.skill-logos-container {
+  display: flex;
+  justify-content: flex-end; /* Align logos to the start (left) */
+  align-items: center; /* Align logos vertically centered */
+  margin-top: 1rem;
+}
+
+.skill-logo {
+  height: 2rem; /* Adjust the height as needed */
+  margin-right: 1rem; /* Adjust spacing between logos as needed */
+}
+
+
+
 /* CONTACT */
 
 #contact {
